@@ -25,5 +25,6 @@ public class AboutUs extends android.app.Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_about_us, container, false);
     }
+    System.err.print("error");
 
 }
