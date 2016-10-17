@@ -22,6 +22,9 @@ public class AmityRegistration extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_amity_registration);
         amizoneid= (EditText) findViewById(R.id.amizoneid);
+        getSupportActionBar().setTitle("From Amity Registration");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
         amizonepass= (EditText) findViewById(R.id.password);
         fullname= (EditText) findViewById(R.id.fullname);
         email = (EditText) findViewById(R.id.email);

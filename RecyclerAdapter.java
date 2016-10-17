@@ -18,7 +18,7 @@ import java.util.List;
 
      private LayoutInflater inflater;
      private List<Information> data = Collections.emptyList();
-     Context context;
+      Context context;
 
      RecyclerAdapter(Context c, List<Information> list) {
          this.context = c;
